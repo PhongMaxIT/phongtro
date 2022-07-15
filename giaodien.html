@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{box-sizing: border-box;}
+    body {font-family: Arial;font-size: 14px;}
+    header{width: 100%; height: 550px;}
+    header img{width: 100%; height: 550px;}
+    nav{background: #000; height: 40px;}
+    nav ul{margin: 0px;padding: 0px;}
+    nav ul li{list-style: none; float: left;}
+    nav ul li a{
+    text-decoration: none;color: #fff; padding: 0px 10px 0px 10px;
+    border-right: 1px solid;height: 40px; line-height: 40px;
+    }
+    nav::after{content: "";display: table; clear: both;}
+    section .product-info{
+        float: left;width: 33.33%;
+         margin-top: 10px;
+         font-size: 13px;
+         list-style: none; 
+         text-align: center;
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+    footer{background-color: pink;}
+    </style>
+</head>
+<body>
+    
+    <header><img src="image/bia.jpg"/></header>
+    <nav> 
+        <ul>
+            <li><a href="#">Trang chủ </a></li>
+            <li><a href="#">Giới thiệu </a></li>
+            <li><a href="#">Nhà trọ </a></li>
+            <li><a href="#">Căn hộ </a></li>
+            <li><a href="#">Tìm bạn ở ghép </a></li>
+            <li><a href="#">Tin tức </a></li>
+            <li><a href="#">Liên hệ </a></li>
+        </ul>
+    </nav>
+    <section> 
+        <div class="product-info">
+            <div class="image"><img src="image/tro1.jpg", width="400" height="400"/></div>
+            <h4><a href="#">Nhà trọ sao</a></h4>
+            <div class="price">
+                <ul>
+                    <li> Giá trọ : 2.500.000đ</li>
+                    <li class="discount"> Giảm giá còn : 2.300.000đ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="image"><img src="image/tro2.jpg", width="400" height="400"/></div>
+            <h4><a href="#">Nhà trọ may</a></h4>
+            <div class="price">
+                <ul>
+                    <li> Giá trọ : 2.500.000đ</li>
+                    <li class="discount"> Giảm giá còn : 2.300.000đ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="image"><img src="image/tro3.jpg", width="400" height="400"/></div>
+            <h4><a href="#">Nhà trọ one</a></h4>
+            <div class="price">
+                <ul>
+                    <li> Giá trọ : 2.500.000đ</li>
+                    <li class="discount"> Giảm giá còn : 2.300.000đ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="image"><img src="image/tro4.jpg", width="400" height="400"/></div>
+            <h4><a href="#">Nhà trọ two</a></h4>
+            <div class="price">
+                <ul>
+                    <li> Giá trọ : 2.500.000đ</li>
+                    <li class="discount"> Giảm giá còn : 2.300.000đ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="image"><img src="image/tro5.jpg", width="400" height="400"/></div>
+            <h4><a href="#">Nhà trọ three</a></h4>
+            <div class="price">
+                <ul>
+                    <li> Giá trọ : 2.500.000đ</li>
+                    <li class="discount"> Giảm giá còn : 2.300.000đ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="image"><img src="image/tro6.jpg", width="400" height="400"/></div>
+            <h4><a href="#">Nhà trọ for</a></h4>
+            <div class="price">
+                <ul>
+                    <li> Giá trọ : 2.500.000đ</li>
+                    <li class="discount"> Giảm giá còn : 2.300.000đ</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        <div id="contact" class="container-fluid bg-grey">
+            <h2 class="text-center">CONTACT</h2>
+            <div class="row">
+              <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+              </div>
+              <div class="col-sm-7 slideanim">
+                <div class="row">
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                  </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                  <div class="col-sm-12 form-group">
+                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+</body>
+</html>
